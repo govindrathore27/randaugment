@@ -1,25 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import math
 import numpy as np
 
 from PIL import Image, ImageOps, ImageEnhance
 
-
-# In[2]:
-
-
-
-# Used as the default fill value when applying transformations to images.
 GREY = (128, 128, 128)
-
-
-# In[3]:
-
 
 
 def add_temp_ones_column(func):
@@ -290,10 +274,3 @@ class TranslateY(Operation):
             [0, 0, 1]
         ])
         return keypoints @ value.T
-
-
-# In[ ]:
-
-
-
-
