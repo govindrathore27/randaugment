@@ -1,18 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
-
 import math
 import numpy as np
 import operations as ops
-
-
-# In[4]:
-
-
 
 class MagnitudePolicy:
     """This class generates magnitude values from a given policy."""
@@ -191,10 +179,3 @@ class RandAugment:
             np.flip(operation_indices),  # Reverse the order of augmentations
             np.flip(directions)*-1  # Reverse the direction of augmentations
         )
-
-
-# In[ ]:
-
-
-
-
